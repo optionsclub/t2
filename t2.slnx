@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="t2.client/t2.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
