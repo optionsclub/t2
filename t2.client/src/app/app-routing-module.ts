@@ -1,7 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { VolumeScreenerComponent } from './screens/volume-screener/volume-screener.component';
+
+const routes: Routes = [
+  {
+    path: 'volume-screener',
+    component: VolumeScreenerComponent
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

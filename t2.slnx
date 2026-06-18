@@ -3,4 +3,5 @@
     <Build />
     <Deploy />
   </Project>
+  <Project Path="t2.Server/t2.Server.csproj" />
 </Solution>
